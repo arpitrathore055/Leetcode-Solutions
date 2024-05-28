@@ -12,12 +12,12 @@
 class Solution {
 public:
     
-    void dfsTraversalForSequence(TreeNode* root,vector<int> &seq){
+    void dfsTraversalForSequence(TreeNode* root,string &seq){
         if(root==NULL){
             return;
         }
         if(root->left==NULL && root->right==NULL){
-            seq.push_back(root->val);
+            seq+=to_string(root->val)+'*';
             return;
         }
         dfsTraversalForSequence(root->left,seq);
@@ -25,7 +25,7 @@ public:
     }
     
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
-        vector<int>seq1,seq2;
+        string seq1,seq2;
         dfsTraversalForSequence(root1,seq1);
         dfsTraversalForSequence(root2,seq2);
         return (seq1==seq2);
