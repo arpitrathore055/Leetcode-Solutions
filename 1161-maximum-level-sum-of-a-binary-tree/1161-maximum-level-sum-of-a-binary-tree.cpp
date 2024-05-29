@@ -11,29 +11,31 @@
  */
 class Solution {
 public:
-    int maxLevelSum(TreeNode* root) {
-        int max=INT_MIN,currLevel=1,smallestLevel=0;
-        queue<TreeNode*>qu;
-        qu.push(root);
-        while(!qu.empty()){
-            int size=qu.size(),currLevelSum=0;
-            for(int i=0;i<size;i++){
-                TreeNode* frontNode=qu.front();
-                qu.pop();
-                currLevelSum+=frontNode->val;
-                if(frontNode->left!=NULL){
-                    qu.push(frontNode->left);
-                }
-                if(frontNode->right!=NULL){
-                    qu.push(frontNode->right);
-                }
-            }
-            if(currLevelSum>max){
-                max=currLevelSum;
-                smallestLevel=currLevel;
-            }
-            currLevel++;
+    
+    void dfsTraversal(TreeNode* root,int &currLevel,map<int,int>&umap){
+        if(root==NULL){
+            return;
         }
-        return smallestLevel;
+        umap[currLevel]+=root->val;
+        if(root->left!=NULL){
+            dfsTraversal(root->left,++currLevel,umap);    
+        }
+        if(root->right!=NULL){
+            dfsTraversal(root->right,++currLevel,umap);    
+        }
+        --currLevel;
+    }
+    
+    int maxLevelSum(TreeNode* root) {
+        map<int,int>umap;
+        int currLevel=1,maxSum=INT_MIN,maxSumLevel=1;
+        dfsTraversal(root,currLevel,umap);
+        for(auto ele:umap){
+            if(ele.second>maxSum){
+                maxSum=ele.second;
+                maxSumLevel=ele.first;
+            }
+        }
+        return maxSumLevel;
     }
 };
