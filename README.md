@@ -5,16 +5,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Tree
 |  |
 | ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
 # Depth-First Search
 |  |
 | ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
 # Binary Tree
 |  |
 | ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
 # Hash Table
@@ -24,4 +27,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Breadth-First Search
 |  |
 | ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
