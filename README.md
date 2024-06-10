@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0832-binary-tree-pruning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -14,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0832-binary-tree-pruning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -21,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0832-binary-tree-pruning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
