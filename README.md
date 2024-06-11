@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Tree
 |  |
 | ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -16,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Depth-First Search
 |  |
 | ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0832-binary-tree-pruning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
@@ -25,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Tree
 |  |
 | ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -43,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Breadth-First Search
 |  |
 | ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0433-minimum-genetic-mutation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
