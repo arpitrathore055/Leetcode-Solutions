@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0998-check-completeness-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 # Depth-First Search
 |  |
 | ------- |
@@ -26,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 # Binary Tree
 |  |
 | ------- |
@@ -39,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0998-check-completeness-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 # Hash Table
 |  |
 | ------- |
@@ -56,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 # Array
 |  |
 | ------- |
@@ -78,3 +82,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0222-count-complete-tree-nodes) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
