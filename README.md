@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0222-count-complete-tree-nodes) |
+| [0513-find-bottom-left-tree-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0832-binary-tree-pruning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
@@ -18,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0513-find-bottom-left-tree-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0832-binary-tree-pruning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
@@ -29,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0222-count-complete-tree-nodes) |
+| [0513-find-bottom-left-tree-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0832-binary-tree-pruning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
@@ -48,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0433-minimum-genetic-mutation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0433-minimum-genetic-mutation) |
+| [0513-find-bottom-left-tree-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
