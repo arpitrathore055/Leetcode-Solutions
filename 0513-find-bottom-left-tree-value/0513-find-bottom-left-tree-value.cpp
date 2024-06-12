@@ -11,26 +11,21 @@
  */
 class Solution {
 public:
-    int findBottomLeftValue(TreeNode* root) {
-        int value=0;
-        queue<TreeNode*>qu;
-        qu.push(root);
-        while(!qu.empty()){
-            int size=qu.size();
-            for(int i=0;i<size;i++){
-                TreeNode* frontNode=qu.front();
-                qu.pop();
-                if(i==0){
-                    value=frontNode->val;
-                }
-                if(frontNode->left!=NULL){
-                    qu.push(frontNode->left);
-                }
-                if(frontNode->right!=NULL){
-                    qu.push(frontNode->right);
-                }
-            }
+
+    void dfsTraversal(TreeNode* root,map<int,int>& map,int level){
+        if(root==NULL){
+            return;
         }
-        return value;
+        if(map.find(level)==map.end()){
+            map[level]=root->val;
+        }
+        dfsTraversal(root->left,map,level+1);
+        dfsTraversal(root->right,map,level+1);
+    }
+
+    int findBottomLeftValue(TreeNode* root) {
+        map<int,int> map;
+        dfsTraversal(root,map,0);
+        return map[map.size()-1];
     }
 };
