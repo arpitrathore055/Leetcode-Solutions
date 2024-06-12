@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0648-replace-words](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 # String
@@ -83,3 +84,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+# Two Pointers
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
+# Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
