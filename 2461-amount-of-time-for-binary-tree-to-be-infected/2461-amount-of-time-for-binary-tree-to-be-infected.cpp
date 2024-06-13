@@ -10,10 +10,12 @@
  * };
  */
 class Solution {
+
     TreeNode* target=NULL;
+
 public:
 
-    void dfsTraversal(TreeNode* root,int& start,unordered_map<int,pair<TreeNode*,bool>>& umap,TreeNode* parent){
+    void dfsTraversalParent(TreeNode* root,int& start,unordered_map<int,pair<TreeNode*,bool>>&umap,TreeNode* parent){
         if(root==NULL){
             return;
         }
@@ -22,39 +24,33 @@ public:
         if(root->val==start){
             target=root;
         }
-        dfsTraversal(root->left,start,umap,root);
-        dfsTraversal(root->right,start,umap,root);
+        dfsTraversalParent(root->left,start,umap,root);
+        dfsTraversalParent(root->right,start,umap,root);
+    }
+
+    int dfsTraversalMinutes(TreeNode* root,unordered_map<int,pair<TreeNode*,bool>>& umap){
+        if(root==NULL){
+            return 0;
+        }
+        umap[root->val].second=true;
+        int leftTreeMinutes=0,rightTreeMinutes=0,parentTreeMinutes=0;
+        if(root->left!=NULL && umap[root->left->val].second==false){
+            leftTreeMinutes=dfsTraversalMinutes(root->left,umap);
+        }
+        if(root->right!=NULL && umap[root->right->val].second==false){
+            rightTreeMinutes=dfsTraversalMinutes(root->right,umap);
+        }
+        TreeNode* parent=umap[root->val].first;
+        bool isParentVisited=(parent==NULL)?false:umap[parent->val].second;
+        if(isParentVisited==false){
+            parentTreeMinutes=dfsTraversalMinutes(umap[root->val].first,umap);
+        }
+        return max(leftTreeMinutes,max(rightTreeMinutes,parentTreeMinutes)) +1;
     }
 
     int amountOfTime(TreeNode* root, int start) {
         unordered_map<int,pair<TreeNode*,bool>> umap;
-        dfsTraversal(root,start,umap,NULL);
-        queue<TreeNode*>qu;
-        int minutes=0;
-        qu.push(target);
-        umap[target->val].second=true;
-        while(!qu.empty()){
-            int size=qu.size();
-            for(int i=0;i<size;i++){
-                TreeNode* frontNode=qu.front();
-                qu.pop();
-                if(frontNode->left!=NULL && umap[frontNode->left->val].second==false){
-                    umap[frontNode->left->val].second=true;
-                    qu.push(frontNode->left);
-                }
-                if(frontNode->right!=NULL && umap[frontNode->right->val].second==false){
-                    umap[frontNode->right->val].second=true;
-                    qu.push(frontNode->right);
-                }
-                TreeNode* parent=umap[frontNode->val].first;
-                bool isParentVisited=(parent==NULL)? false : umap[parent->val].second;
-                if(parent!=NULL && isParentVisited==false){
-                    umap[parent->val].second=true;
-                    qu.push(parent);
-                }
-            }
-            ++minutes;
-        }
-        return minutes-1;
-    }   
+        dfsTraversalParent(root,start,umap,NULL);
+        return dfsTraversalMinutes(target,umap)-1;
+    }
 };
