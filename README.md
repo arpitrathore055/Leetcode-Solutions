@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 # Depth-First Search
 |  |
 | ------- |
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 # Binary Tree
 |  |
 | ------- |
@@ -42,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 # Hash Table
 |  |
 | ------- |
@@ -49,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0648-replace-words](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -60,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 # Array
 |  |
 | ------- |
