@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Hash Table
 |  |
 | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0648-replace-words](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0648-replace-words](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 # String
@@ -97,3 +99,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
+# Math
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+# Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+# Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
