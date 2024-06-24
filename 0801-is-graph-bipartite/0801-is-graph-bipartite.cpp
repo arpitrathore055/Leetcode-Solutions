@@ -4,17 +4,27 @@ class Solution {
 
 public:
 
-    void dfsTraversal(int source,vector<vector<int>>& graph,vector<pair<bool,int>>& visited,int colour){
+    void bfsTraversal(int source,vector<vector<int>>& graph,vector<pair<bool,int>>& visited){
+        queue<int>qu;
         visited[source].first=true;
-        visited[source].second=colour;
-        for(auto v:graph[source]){
-            if(!visited[v].first){
-                dfsTraversal(v,graph,visited,(colour==1)?2:1);
-            }
-            else{
-                if(visited[v].second==colour){
-                    isBipartiteGraph=false;
-                    return;
+        visited[source].second=1;
+        qu.push(source);
+        while(!qu.empty()){
+            int size=qu.size();
+            for(int i=0;i<size;i++){
+                int frontVertex=qu.front();
+                qu.pop();
+                for(auto v:graph[frontVertex]){
+                    if(!visited[v].first){
+                        visited[v].first=true;
+                        visited[v].second=(visited[frontVertex].second==1)?2:1;
+                        qu.push(v);
+                    }
+                    else{
+                        if(visited[v].second == visited[frontVertex].second){
+                            isBipartiteGraph=false;
+                        }
+                    }
                 }
             }
         }
@@ -24,7 +34,7 @@ public:
         vector<pair<bool,int>> visited(graph.size(),{false,-1});
         for(int i=0;i<graph.size();i++){
             if(!visited[i].first){
-                dfsTraversal(i,graph,visited,1);
+                bfsTraversal(i,graph,visited);
                 if(!isBipartiteGraph){
                     return false;
                 }
