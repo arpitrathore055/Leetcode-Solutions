@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0207-course-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0207-course-schedule) |
 | [0513-find-bottom-left-tree-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0207-course-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0207-course-schedule) |
 | [0433-minimum-genetic-mutation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0513-find-bottom-left-tree-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
@@ -111,3 +113,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+# Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0207-course-schedule) |
+# Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0207-course-schedule) |
