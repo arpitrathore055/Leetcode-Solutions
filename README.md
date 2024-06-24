@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0513-find-bottom-left-tree-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0801-is-graph-bipartite](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0832-binary-tree-pruning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0513-find-bottom-left-tree-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0623-add-one-row-to-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0801-is-graph-bipartite](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
@@ -117,7 +119,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0207-course-schedule) |
+| [0801-is-graph-bipartite](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 # Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0207-course-schedule) |
+# Union Find
+|  |
+| ------- |
+| [0801-is-graph-bipartite](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
