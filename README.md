@@ -76,12 +76,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0648-replace-words](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0648-replace-words) |
+| [1032-satisfiability-of-equality-equations](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 # String
 |  |
 | ------- |
 | [0433-minimum-genetic-mutation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0433-minimum-genetic-mutation) |
 | [0648-replace-words](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0648-replace-words) |
+| [1032-satisfiability-of-equality-equations](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 # Trie
 |  |
 | ------- |
@@ -120,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0207-course-schedule) |
 | [0801-is-graph-bipartite](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
+| [1032-satisfiability-of-equality-equations](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 # Topological Sort
 |  |
 | ------- |
@@ -128,3 +131,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0801-is-graph-bipartite](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
+| [1032-satisfiability-of-equality-equations](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
