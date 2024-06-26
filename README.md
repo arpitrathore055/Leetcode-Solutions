@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1442-number-of-operations-to-make-network-connected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 # Binary Tree
 |  |
@@ -71,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0998-check-completeness-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 # Array
 |  |
@@ -126,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [1032-satisfiability-of-equality-equations](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 # Topological Sort
 |  |
 | ------- |
@@ -136,3 +139,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [1032-satisfiability-of-equality-equations](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
