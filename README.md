@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
+| [2379-maximum-total-importance-of-roads](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Math
 |  |
 | ------- |
@@ -132,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1032-satisfiability-of-equality-equations](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1916-find-center-of-star-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1916-find-center-of-star-graph) |
+| [2379-maximum-total-importance-of-roads](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 # Topological Sort
 |  |
@@ -148,7 +150,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
+| [2379-maximum-total-importance-of-roads](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Shortest Path
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
+# Greedy
+|  |
+| ------- |
+| [2379-maximum-total-importance-of-roads](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
