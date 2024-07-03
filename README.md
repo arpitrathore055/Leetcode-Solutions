@@ -173,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
+| [1706-min-cost-to-connect-all-points](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1738-maximal-network-rank](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1738-maximal-network-rank) |
 ## Heap (Priority Queue)
 |  |
@@ -182,4 +183,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
+## Array
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
+## Union Find
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
