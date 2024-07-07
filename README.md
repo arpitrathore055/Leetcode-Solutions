@@ -166,11 +166,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [2121-find-if-path-exists-in-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2121-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2121-find-if-path-exists-in-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2121-find-if-path-exists-in-graph) |
 ## Graph
 |  |
 | ------- |
@@ -178,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1706-min-cost-to-connect-all-points](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1738-maximal-network-rank](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1738-maximal-network-rank) |
+| [2121-find-if-path-exists-in-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2121-find-if-path-exists-in-graph) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -196,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1706-min-cost-to-connect-all-points](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
+| [2121-find-if-path-exists-in-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2121-find-if-path-exists-in-graph) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
