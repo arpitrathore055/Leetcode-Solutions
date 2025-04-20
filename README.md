@@ -239,10 +239,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0013-roman-to-integer) |
+| [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 ## Recursion
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0002-add-two-numbers) |
+| [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 ## Two Pointers
 |  |
 | ------- |
@@ -256,4 +258,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0013-roman-to-integer](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0013-roman-to-integer) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 <!---LeetCode Topics End-->
