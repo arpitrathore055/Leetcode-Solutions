@@ -1,32 +1,17 @@
 class Solution {
 public:
-
-    int dp[1001][1001];
-    int solve(vector<vector<int>>& pairs,int ind,int prevind){
-        if(ind >= pairs.size()){
-            return 0;
-        }
-        if(prevind !=-1 && dp[ind][prevind] != -1){
-            return dp[ind][prevind];
-        }
-        int prevValue=0;
-        if(prevind != -1){
-            prevValue=pairs[prevind][1];
-        }
-        int currValue=pairs[ind][0],take=0;
-        if(prevind == -1 || prevValue < currValue){
-            take=1+solve(pairs,ind+1,ind);
-        }
-        int skip=solve(pairs,ind+1,prevind);
-        if(prevind != -1){
-            return dp[ind][prevind]=max(take,skip);
-        }
-        return max(take,skip);
-    }
-
     int findLongestChain(vector<vector<int>>& pairs) {
-        memset(dp,-1,sizeof(dp));
+        vector<int> dp(1001,1);
         sort(pairs.begin(),pairs.end());
-        return solve(pairs,0,-1);
+        int maxValue=1;
+        for(int i=0;i<pairs.size();i++){
+            for(int j=0;j<i;j++){
+                if(pairs[i][0] > pairs[j][1]){
+                    dp[i]=max(dp[j]+1,dp[i]);
+                    maxValue=max(maxValue,dp[i]);
+                }
+            }
+        }
+        return maxValue;
     }
 };
