@@ -18,31 +18,24 @@ public:
         return i == pl;
     }
 
-    int dp[1001][1001];
-
-    int solve(vector<string>& words,int ind,int prevind){
-        if(ind >= words.size()){
-            return 0;
-        }
-        if(prevind != -1 && dp[ind][prevind]!=-1){
-            return dp[ind][prevind];
-        }
-        int take=0;
-        if(prevind == -1 || isPredecessor(words[prevind],words[ind])){
-            take=1+solve(words,ind+1,ind);
-        }
-        int skip=solve(words,ind+1,prevind);
-        if(prevind != -1){
-            return dp[ind][prevind]=max(take,skip);
-        }
-        return max(take,skip);
+    static bool comp(string a,string b){
+        return a.length() < b.length();
     }
 
     int longestStrChain(vector<string>& words) {
-        sort(words.begin(),words.end(),[](string a,string b){
-            return a.length() < b.length();
-        });
-        memset(dp,-1,sizeof(dp));
-        return solve(words,0,-1);
+        
+        vector<int>dp(1001,1);
+        sort(words.begin(),words.end(),comp);
+        int maxValue=1;
+        for(int i=0;i<words.size();i++){
+            for(int j=0;j<i;j++){
+                if(isPredecessor(words[j],words[i])){
+                    dp[i]=max(dp[j]+1,dp[i]);
+                    maxValue=max(maxValue,dp[i]);
+                }
+            }
+        }
+        return maxValue;
+
     }
 };
