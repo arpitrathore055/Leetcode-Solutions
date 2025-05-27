@@ -1,29 +1,23 @@
 class Solution {
 public:
-
-    int dp[1001][1001];
-
-    int solve(string &text1,string &text2,int ind1,int ind2,int l1,int l2){
-        if(ind1 >= l1 || ind2 >= l2){
-            return 0;
-        }
-        if(dp[ind1][ind2]!=-1){
-            return dp[ind1][ind2];
-        }
-        if(text1[ind1] == text2[ind2]){
-            return dp[ind1][ind2]=1 + solve(text1,text2,ind1+1,ind2+1,l1,l2);
-        }
-        else{
-            return dp[ind1][ind2]=max(solve(text1,text2,ind1+1,ind2,l1,l2),solve(text1,text2,ind1,ind2+1,l1,l2));
-        }
-    }
-
     int longestCommonSubsequence(string text1, string text2) {
-        int l1=text1.length(),l2=text2.length();
-        if(l1==0 || l2==0){
-            return 0;
+        vector<vector<int>> dp(text1.length()+1,vector<int>(text2.length()+1));
+        for(int i=0;i<=text1.length();i++){
+            dp[i][0]=0;
         }
-        memset(dp,-1,sizeof(dp));
-        return solve(text1,text2,0,0,l1,l2);
-    }
+        for(int j=0;j<=text2.length();j++){
+            dp[0][j]=0;
+        }
+        for(int i=1;i<=text1.length();i++){
+            for(int j=1;j<=text2.length();j++){
+                if(text1[i-1]==text2[j-1]){
+                    dp[i][j]=1+dp[i-1][j-1];
+                }
+                else{
+                    dp[i][j]=max(dp[i-1][j],dp[i][j-1]);
+                }
+            }
+        }
+        return dp[text1.length()][text2.length()];
+    } 
 };
