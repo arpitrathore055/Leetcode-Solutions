@@ -2,25 +2,23 @@ class Solution {
 public:
 
     int dp[1001][1001];
-    int solve(int i,int j,string& s){
-        if(i > j){
+
+    int solve(string& a,string& b,int i1,int i2,int m,int n){
+        if(i1 >= m || i2 >= n){
             return 0;
         }
-        if(i == j){
-            return 1;
+        if(dp[i1][i2] != -1){
+            return dp[i1][i2];
         }
-        if(dp[i][j] != -1){
-            return dp[i][j];
+        if(a[i1] == b[i2]){
+            return dp[i1][i2]=1 + solve(a,b,i1+1,i2+1,m,n);
         }
-        if(s[i] == s[j]){
-            return dp[i][j]=2 + solve(i+1,j-1,s);
-        }
-        return dp[i][j]=max(solve(i+1,j,s),solve(i,j-1,s));
+        return dp[i1][i2]=max(solve(a,b,i1+1,i2,m,n),solve(a,b,i1,i2+1,m,n));
     }
 
     int longestPalindromeSubseq(string s) {
-        int n=s.length();
+        string sc=string(s.rbegin(),s.rend());
         memset(dp,-1,sizeof(dp));
-        return solve(0,n-1,s);
+        return solve(s,sc,0,0,s.length(),s.length());
     }
 };
