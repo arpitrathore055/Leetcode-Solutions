@@ -256,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0647-palindromic-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0647-palindromic-substrings) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
@@ -267,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0013-roman-to-integer) |
 | [0072-edit-distance](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0072-edit-distance) |
 | [0647-palindromic-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0647-palindromic-substrings) |
@@ -280,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0072-edit-distance](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0072-edit-distance) |
 | [0198-house-robber](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0300-longest-increasing-subsequence) |
