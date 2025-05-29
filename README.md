@@ -271,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0013-roman-to-integer) |
 | [0072-edit-distance](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0072-edit-distance) |
+| [0516-longest-palindromic-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0647-palindromic-substrings) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1250-longest-common-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0072-edit-distance](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0072-edit-distance) |
 | [0198-house-robber](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0516-longest-palindromic-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0647-palindromic-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0647-palindromic-substrings) |
 | [1013-fibonacci-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
