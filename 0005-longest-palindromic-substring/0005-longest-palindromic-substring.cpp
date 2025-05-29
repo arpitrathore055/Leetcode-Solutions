@@ -1,29 +1,24 @@
 class Solution {
 public:
-
-    int dp[1001][1001];
-
-    bool check(int i,int j,string& s){
-        if(i >= j){
-            return 1;
-        }
-        if(dp[i][j] != -1){
-            return dp[i][j];
-        }
-        if(s[i] == s[j]){
-            return dp[i][j]=check(i+1,j-1,s);
-        }
-        return dp[i][j]=0;
-    }
-
     string longestPalindrome(string s) {
+        int n=s.length();
+        vector<vector<bool>>dp(n+1,vector<bool>(n+1,false));
         int maxLen=INT_MIN,start=0;
-        memset(dp,-1,sizeof(dp));
-        for(int i=0;i<s.length();i++){
-            for(int j=0;j<s.length();j++){
-                if(check(i,j,s)){
-                    if(maxLen < (j-i+1)){
-                        maxLen=j-i+1;
+        for(int len=1;len<=n;len++){
+            for(int i=0;(i+len-1)<n;i++){
+                int j=i+len-1;
+                if(i == j){
+                    dp[i][j]=true;
+                }
+                else if(j == i+1){
+                    dp[i][j]=(s[i] == s[j]);
+                }
+                else{
+                    dp[i][j]=(s[i] == s[j] && dp[i+1][j-1]);
+                }
+                if(dp[i][j]){
+                    if(maxLen < len){
+                        maxLen=len;
                         start=i;
                     }
                 }
