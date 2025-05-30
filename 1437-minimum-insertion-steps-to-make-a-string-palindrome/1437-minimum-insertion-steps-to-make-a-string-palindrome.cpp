@@ -1,24 +1,22 @@
 class Solution {
 public:
-
-    int dp[501][501];
-
-    int solve(int i,int j, string& s){
-        if(i>=j){
-            return 0;
-        }
-        if(dp[i][j] != -1){
-            return dp[i][j];
-        }
-        if(s[i] == s[j]){
-            return dp[i][j]=solve(i+1,j-1,s);
-        }
-        return dp[i][j]=min(1+solve(i,j-1,s),1+solve(i+1,j,s));
-    }
-
     int minInsertions(string s) {
         int n=s.length();
-        memset(dp,-1,sizeof(dp));
-        return solve(0,n-1,s);
+        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+        for(int len=1;len<=n;len++){
+            for(int i=0;(i+len-1)<n;i++){
+                int j=i+len-1;
+                if(i == j){
+                    dp[i][j]=0;
+                }
+                else if(s[i] == s[j]){
+                    dp[i][j]=dp[i+1][j-1];
+                }
+                else{
+                    dp[i][j]=1+min(dp[i][j-1],dp[i+1][j]);
+                }
+            }
+        }
+        return dp[0][n-1];
     }
 };
