@@ -1,29 +1,36 @@
 class Solution {
 public:
-
-    
-    int dp[101][101];
-
-    int solve(int i,int j,vector<vector<int>>& grid,int m,int n){
-        //base case 
-        if(i >= m || j >= n || grid[i][j]==1){
-            return 0;
-        }
-
-        if(i == (m-1) && j == (n-1)){
-            return 1;
-        }
-        if(dp[i][j] != -1){
-            return dp[i][j];
-        }
-        int downWays=solve(i+1,j,grid,m,n);
-        int rightWays=solve(i,j+1,grid,m,n);
-        return dp[i][j]=downWays + rightWays;
-    }
-
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        memset(dp,-1,sizeof(dp));
-        int m=obstacleGrid.size(),n=obstacleGrid[0].size();
-        return solve(0,0,obstacleGrid,m,n);
+        vector<vector<int>> dp(obstacleGrid.size(),vector<int>(obstacleGrid[0].size(),0));
+        dp[0][0]=(obstacleGrid[0][0] == 1)?0:1;
+        for(int i=1;i<obstacleGrid.size();i++){
+            if(obstacleGrid[i][0]!=1 && obstacleGrid[i-1][0]!=1){
+                dp[i][0]=1;
+            }
+            else{
+                break;
+            }
+        }
+        for(int j=1;j<obstacleGrid[0].size();j++){
+            if(obstacleGrid[0][j]!=1 && obstacleGrid[0][j-1]!=1){
+                dp[0][j]=1;
+            }
+            else{
+                break;
+            }
+        }
+        for(int i=1;i<obstacleGrid.size();i++){
+            for(int j=1;j<obstacleGrid[0].size();j++){
+                if(obstacleGrid[i][j]==1){
+                    dp[i][j]=0;
+                }
+                else{
+                    int upWays=dp[i-1][j];
+                    int leftWays=dp[i][j-1];
+                    dp[i][j]=upWays+leftWays;
+                }
+            }
+        }
+        return dp[obstacleGrid.size()-1][obstacleGrid[0].size()-1];
     }
 };
