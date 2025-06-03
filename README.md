@@ -213,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2855-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2855-maximum-number-of-jumps-to-reach-the-last-index) |
 ## Union Find
 |  |
 | ------- |
@@ -308,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2022-maximum-alternating-subsequence-sum) |
+| [2855-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2855-maximum-number-of-jumps-to-reach-the-last-index) |
 ## Memoization
 |  |
 | ------- |
