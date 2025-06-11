@@ -12,25 +12,30 @@
 class Solution {
 public:
 
-    string solve(string str,TreeNode* root){
-
-        if(root ==nullptr){
-            return "";
+    void solve(string& str,TreeNode* root){
+        if(root == nullptr){
+            return;
         }
-        if(root->left ==nullptr && root->right ==nullptr){
-            return to_string(root->val);
+        str+=to_string(root->val);
+        if(root->left){
+            str+="(";
+            solve(str,root->left);
+            str+=")";
         }
-
-        string leftStr=solve(str,root->left);
-        string rightStr=solve(str,root->right);
-        if(leftStr.length()==0 && rightStr.length()!=0 || leftStr.length()!=0 && rightStr.length()!=0){
-            return to_string(root->val)+"("+leftStr+")"+"("+rightStr+")";
+        if(root->right){
+            if(!root->left){
+                str+="()";
+            }
+            str+="(";
+            solve(str,root->right);
+            str+=")";
         }
-        return to_string(root->val)+"("+leftStr+")"+rightStr;
     }
 
     string tree2str(TreeNode* root) {
+        
         string str="";
-        return solve(str,root);
+        solve(str,root);
+        return str;
     }
 };
