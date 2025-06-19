@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0279-perfect-squares) |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
 | [0871-keys-and-rooms](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0871-keys-and-rooms) |
 | [0922-possible-bipartition](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
@@ -262,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0062-unique-paths) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0279-perfect-squares) |
 | [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
 ## Recursion
@@ -313,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0097-interleaving-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0198-house-robber) |
+| [0279-perfect-squares](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0413-arithmetic-slices](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0413-arithmetic-slices) |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0446-arithmetic-slices-ii-subsequence) |
