@@ -240,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 ## Matrix
 |  |
 | ------- |
@@ -300,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 ## Bit Manipulation
 |  |
 | ------- |
