@@ -220,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
+| [1206-corporate-flight-bookings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1206-corporate-flight-bookings) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1706-min-cost-to-connect-all-points](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
@@ -390,6 +391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0713-subarray-product-less-than-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
+| [1206-corporate-flight-bookings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1206-corporate-flight-bookings) |
 ## Simulation
 |  |
 | ------- |
