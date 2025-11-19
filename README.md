@@ -207,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0063-unique-paths-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0120-triangle](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0120-triangle) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0198-house-robber) |
@@ -266,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0063-unique-paths-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Tree
 |  |
@@ -370,6 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
