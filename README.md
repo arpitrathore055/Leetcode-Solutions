@@ -238,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1706-min-cost-to-connect-all-points](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1988-minimize-maximum-pair-sum-in-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
@@ -306,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0647-palindromic-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0647-palindromic-substrings) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
+| [1988-minimize-maximum-pair-sum-in-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Greedy
 |  |
@@ -314,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
+| [1988-minimize-maximum-pair-sum-in-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## String
 |  |
@@ -401,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
+| [1988-minimize-maximum-pair-sum-in-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Combinatorics
