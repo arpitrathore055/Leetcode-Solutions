@@ -337,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [2390-removing-stars-from-a-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2390-removing-stars-from-a-string) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -426,6 +427,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
+| [2390-removing-stars-from-a-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2390-removing-stars-from-a-string) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -442,6 +444,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
+| [2390-removing-stars-from-a-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2390-removing-stars-from-a-string) |
 ## Design
 |  |
 | ------- |
