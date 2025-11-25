@@ -333,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
 | [0647-palindromic-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0647-palindromic-substrings) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
@@ -429,6 +430,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [2390-removing-stars-from-a-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2390-removing-stars-from-a-string) |
 ## Prefix Sum
 |  |
