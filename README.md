@@ -216,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0120-triangle](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
@@ -327,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0151-reverse-words-in-a-string) |
@@ -436,6 +438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0049-group-anagrams](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
