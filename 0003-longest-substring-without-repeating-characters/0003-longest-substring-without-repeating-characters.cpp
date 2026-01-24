@@ -2,22 +2,28 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         
-        int low=0,high=0,maxCount=0,currCount=0;
-        vector<int> freq(256,0);
-        while(high<s.length()){
-            if(freq[(s[high])]==0){
-                freq[(s[high])]++;
-                currCount++;
-                high++;
+        int l=0,r=0,n=s.length();
+        unordered_map<char,int> umap;
+        int maxSubarrayLen=0,duplicatesCount=0;
+        for(;r<n;r++){
+
+            //updation part
+            if(++umap[s[r]] == 2){
+                duplicatesCount++;
             }
-            else{
-                maxCount=max(maxCount,currCount);
-                freq[(s[low])]--;
-                currCount--;
-                low++;
+
+            //invalid scenerio part
+            while(duplicatesCount > 0 && l<=r){
+                if(--umap[s[l]] ==1){
+                    duplicatesCount--;
+                }
+                l++;
             }
+
+            //ans computation part
+            maxSubarrayLen=max(maxSubarrayLen,(r-l+1));
         }
-        maxCount=max(maxCount,currCount);      
-        return maxCount;
+        return maxSubarrayLen;
+
     }
 };
