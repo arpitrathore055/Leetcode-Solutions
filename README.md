@@ -218,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0078-subsets) |
 | [0120-triangle](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
@@ -386,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0078-subsets) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 ## Dynamic Programming
@@ -535,6 +537,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
+| [0078-subsets](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0078-subsets) |
 ## Binary Search Tree
 |  |
 | ------- |
