@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0133-clone-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0133-clone-graph) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0090-subsets-ii) |
 | [0120-triangle](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -304,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -372,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0097-interleaving-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0097-interleaving-string) |
 | [0115-distinct-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
@@ -551,6 +555,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0131-palindrome-partitioning) |
 ## Binary Search Tree
