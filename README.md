@@ -250,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1206-corporate-flight-bookings) |
+| [1219-path-with-maximum-gold](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1219-path-with-maximum-gold) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -308,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0240-search-a-2d-matrix-ii) |
+| [1219-path-with-maximum-gold](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1219-path-with-maximum-gold) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Tree
@@ -559,6 +561,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0131-palindrome-partitioning) |
+| [1219-path-with-maximum-gold](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1219-path-with-maximum-gold) |
 ## Binary Search Tree
 |  |
 | ------- |
