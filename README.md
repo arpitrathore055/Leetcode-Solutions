@@ -298,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2150-find-all-lonely-numbers-in-the-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2150-find-all-lonely-numbers-in-the-array) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
@@ -400,6 +401,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2390-removing-stars-from-a-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2390-removing-stars-from-a-string) |
 ## Bit Manipulation
@@ -412,6 +414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [0868-binary-gap](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0868-binary-gap) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -527,6 +530,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1206-corporate-flight-bookings) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Simulation
