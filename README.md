@@ -257,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1206-corporate-flight-bookings) |
 | [1219-path-with-maximum-gold](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1219-path-with-maximum-gold) |
+| [1248-count-number-of-nice-subarrays](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -305,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0974-subarray-sums-divisible-by-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
+| [1248-count-number-of-nice-subarrays](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
@@ -351,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
+| [1248-count-number-of-nice-subarrays](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1248-count-number-of-nice-subarrays) |
 ## Recursion
 |  |
 | ------- |
@@ -523,6 +526,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0713-subarray-product-less-than-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Binary Tree
@@ -553,6 +557,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1206-corporate-flight-bookings) |
+| [1248-count-number-of-nice-subarrays](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
