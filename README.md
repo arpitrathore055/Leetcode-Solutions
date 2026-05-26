@@ -312,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1590-make-sum-divisible-by-p](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1590-make-sum-divisible-by-p) |
+| [1915-number-of-wonderful-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1915-number-of-wonderful-substrings) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2150-find-all-lonely-numbers-in-the-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2150-find-all-lonely-numbers-in-the-array) |
@@ -425,6 +426,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1915-number-of-wonderful-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1915-number-of-wonderful-substrings) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2390-removing-stars-from-a-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2390-removing-stars-from-a-string) |
@@ -440,6 +442,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0868-binary-gap](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0868-binary-gap) |
 | [1371-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1371-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1915-number-of-wonderful-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1915-number-of-wonderful-substrings) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 ## Dynamic Programming
 |  |
@@ -566,6 +569,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1371-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1371-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1590-make-sum-divisible-by-p](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1590-make-sum-divisible-by-p) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1915-number-of-wonderful-substrings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1915-number-of-wonderful-substrings) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
