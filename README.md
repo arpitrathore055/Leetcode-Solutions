@@ -253,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1025-minimum-cost-for-tickets](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1025-minimum-cost-for-tickets) |
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1206-corporate-flight-bookings) |
@@ -306,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0930-binary-subarrays-with-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1248-count-number-of-nice-subarrays](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1371-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1371-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -548,6 +550,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0143-reorder-list) |
+| [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [2390-removing-stars-from-a-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2390-removing-stars-from-a-string) |
 ## Prefix Sum
@@ -563,6 +566,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0930-binary-subarrays-with-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1206-corporate-flight-bookings) |
 | [1248-count-number-of-nice-subarrays](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1248-count-number-of-nice-subarrays) |
@@ -638,4 +642,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
 <!---LeetCode Topics End-->
