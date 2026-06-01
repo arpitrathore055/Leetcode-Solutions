@@ -1,30 +1,30 @@
 class Solution {
 
-string str;
 vector<int> dp[21][21];
+string str;
 
 vector<int> combine(vector<int> leftPart,vector<int> rightPart,char op){
-    vector<int> ans;
+    vector<int> finalAns;
     for(auto lValue:leftPart){
         for(auto rValue:rightPart){
-            int finalValue=0;
+            int computedValue=0;
             if(op == '+'){
-                finalValue=lValue + rValue;
+                computedValue=lValue+rValue;
             }
             else if(op == '-'){
-                finalValue=lValue - rValue;
+                computedValue=lValue-rValue;
             }
             else{
-                finalValue=lValue * rValue;
+                computedValue=lValue*rValue;
             }
-            ans.push_back(finalValue);
+            finalAns.push_back(computedValue);
         }
     }
-    return ans;
+    return finalAns;
 }
 
 vector<int> rec(int l,int r){
-    //pruning;
+    //pruning
 
     //base case
     if(l == r){
@@ -37,19 +37,21 @@ vector<int> rec(int l,int r){
     }
 
     //compute
+    vector<int>ans;
     bool containsOperator=false;
-    vector<int> ans;
     for(int k=l;k<r;k++){
+
         if(str[k] == '+' || str[k] == '-' || str[k] == '*'){
             containsOperator=true;
             char op=str[k];
-            vector<int> temp = combine(rec(l,k-1),rec(k+1,r),op);
-            ans.insert(ans.end(), temp.begin(), temp.end());
+            vector<int> mergedValues=combine(rec(l,k-1),rec(k+1,r),op);
+            ans.insert(ans.end(),mergedValues.begin(),mergedValues.end());
         }
+
     }
 
     if(!containsOperator){
-        return dp[l][r]={stoi(str.substr(l,r-l+1))};
+        return {stoi(str.substr(l,r-l+1))};
     }
 
     //save and return
@@ -58,12 +60,13 @@ vector<int> rec(int l,int r){
 
 public:
     vector<int> diffWaysToCompute(string expression) {
+        
         str=expression;
-        for(int i = 0; i < 21; i++){
-            for(int j = 0; j < 21; j++){
-                dp[i][j].clear();
+        for(int i=0;i<21;i++){
+            for(int j=0;j<21;j++){
+                dp[i][j]={};
             }
         }
-        return rec(0,str.length()-1);  
+        return rec(0,str.length()-1);
     }
 };
