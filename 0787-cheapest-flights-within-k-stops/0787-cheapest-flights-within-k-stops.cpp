@@ -1,52 +1,44 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        vector<vector<pair<int,int>>> adj(n);
-
-        for(auto &flight : flights)
-        {
-            int u = flight[0];
-            int v = flight[1];
-            int wt = flight[2];
-
-            adj[u].push_back({v,wt});
+        
+        vector<vector<pair<int,int>>> adj(n+1);
+        for(auto flight:flights){
+            adj[flight[0]].push_back({flight[1],flight[2]});
         }
 
-        vector<vector<int>> dist(n,vector<int>(k+2,INT_MAX));
-
-        priority_queue<vector<int>,vector<vector<int>>,greater<vector<int>>> pq;
-        pq.push({0,0,src});//cost,stops,node
-        dist[src][0]=0;//[0]->stops and =0->cost
+        vector<vector<int>> dist(n+1,vector<int>(k+2,INT_MAX));
+        priority_queue<tuple<int,int,int>,vector<tuple<int,int,int>>,greater<tuple<int,int,int>>> pq;
+        dist[src][0]=0;
+        pq.push({0,src,0});//cost,source,stops_taken
 
         while(!pq.empty()){
-
-            auto frontNode=pq.top();
+            auto [nodeCost,node,stops_taken]=pq.top();
             pq.pop();
-            int u=frontNode[2];
-            int uCost=frontNode[0];
-            int edges=frontNode[1];
 
-            if(u == dst){
-                return uCost;
-            }
-
-            if(edges == k+1){
+            if(nodeCost > dist[node][stops_taken]){
                 continue;
             }
 
-            for(auto vertices:adj[u]){
-                int v=vertices.first;
-                int vCost=vertices.second;
+            if(stops_taken >= k+1){
+                continue;
+            }
 
-                if( uCost + vCost < dist[v][edges+1]){
-                    dist[v][edges+1]=uCost + vCost;
-                    pq.push({uCost+vCost,edges+1,v});
+            for(auto vertices:adj[node]){
+                int nextNode=vertices.first;
+                int nextNodeCost=vertices.second;
+
+                if(nodeCost + nextNodeCost < dist[nextNode][stops_taken+1]){
+                    dist[nextNode][stops_taken+1]=nodeCost + nextNodeCost;
+                    pq.push({dist[nextNode][stops_taken+1],nextNode,stops_taken+1});
                 }
-
             }
 
         }
-        return -1;
-
+        int minFlightCost=INT_MAX;
+        for(auto flight:dist[dst]){
+            minFlightCost=min(minFlightCost,flight);
+        }
+        return (minFlightCost == INT_MAX)? -1:minFlightCost;
     }
 };
