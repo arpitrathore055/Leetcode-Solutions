@@ -1,41 +1,46 @@
 class Solution {
 public:
-
-    void backtrack(vector<int>& candidates,int start,int remaining,vector<vector<int>>& result,vector<int>& path){
-
-        if(remaining == 0){
-            result.push_back(path);
+    
+    void backtrack(int startInd,int& n,int target,vector<int>& currCombination,vector<vector<int>>& sumCombinations,vector<int>& candidates){
+        
+        //basecase
+        if(target == 0){
+            sumCombinations.push_back(currCombination);
             return;
         }
-        if(remaining < 0){
-            return;
-        }
-
-        for(int ind=start;ind<candidates.size();ind++){
-
-            //pruning condition
-            if(candidates[ind] > remaining){
-                break;
-            }
-            if(ind > start && candidates[ind] == candidates[ind-1]){
+        
+        //choices
+        for(int choice=startInd;choice<n;choice++){
+            
+            //pruning
+            if((target - candidates[choice]) < 0){
                 continue;
             }
-
-            path.push_back(candidates[ind]);
-            backtrack(candidates,ind+1,remaining-candidates[ind],result,path);
-            path.pop_back();
-
+            
+            if(choice > startInd && candidates[choice] == candidates[choice-1]){
+                continue;
+            }
+            
+            currCombination.push_back(candidates[choice]);
+            
+            backtrack(choice+1,n,target - candidates[choice],currCombination,sumCombinations,candidates);
+            
+            currCombination.pop_back();
+            
         }
-
+        
     }
-
+    
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
         
+        vector<vector<int>> sumCombinations;
+        vector<int> currCombination;
+        
+        int n=candidates.size();
+        int startInd=0;
         sort(candidates.begin(),candidates.end());
-        vector<vector<int>> result;
-        vector<int> path;
-        backtrack(candidates,0,target,result,path);
-        return result;
-
+        backtrack(startInd,n,target,currCombination,sumCombinations,candidates);
+        return sumCombinations;
+        
     }
 };
