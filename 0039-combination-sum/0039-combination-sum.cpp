@@ -1,36 +1,39 @@
 class Solution {
 public:
-
-    void backtrack(vector<int>& candidates,int start,int remaining,vector<vector<int>>& result,vector<int>& path){
-
-        if(remaining == 0){
-            result.push_back(path);
-            return;
-        }
-        if(remaining < 0){
-            return;
-        }
-
-        for(int ind=start;ind<candidates.size();ind++){
-
-            //pruning condition
-            if(candidates[ind] > remaining){
-                continue;
+    
+    void backtrack(int startInd,int& n,int target,vector<int>& currCombination,vector<vector<int>>& sumCombinations,vector<int>& candidates){
+        
+        //base case
+        if(startInd == n){
+            if(target == 0){
+                sumCombinations.push_back(currCombination);
             }
-
-            path.push_back(candidates[ind]);
-            backtrack(candidates,ind,remaining-candidates[ind],result,path);
-            path.pop_back();
-
+            return;
         }
-
+        
+        //choices
+        //1.take same
+        if((target - candidates[startInd]) >=0){
+            
+            currCombination.push_back(candidates[startInd]);
+            backtrack(startInd,n,target - candidates[startInd],currCombination,sumCombinations,candidates);
+            currCombination.pop_back();
+            
+        }
+        
+        //2.not take and move next
+        backtrack(startInd+1,n,target,currCombination,sumCombinations,candidates);
     }
-
+    
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         
-        vector<vector<int>> result;
-        vector<int> path;
-        backtrack(candidates,0,target,result,path);
-        return result;
+        vector<vector<int>> sumCombinations;
+        vector<int> currCombination;
+        
+        int n=candidates.size();
+        int startInd=0;
+        backtrack(startInd,n,target,currCombination,sumCombinations,candidates);
+        return sumCombinations;
+        
     }
 };
