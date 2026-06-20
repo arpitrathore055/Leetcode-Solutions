@@ -1,48 +1,51 @@
 class Solution {
 public:
-
-    void backtrack(vector<int>& nums,vector<int>& path,vector<bool>& used,vector<vector<int>>& result){
-
-        //base condition
-        if(path.size() == nums.size()){
-            result.push_back(path);
+    
+    void backtrack(int n,vector<int>& currPermutation,vector<vector<int>>& uniqueCollection,vector<bool>& used,vector<int>& nums){
+        
+        //basecase
+        if(currPermutation.size() == n){
+            uniqueCollection.push_back(currPermutation);
             return;
         }
 
-        //exploration part
-        for(int ind=0;ind<nums.size();ind++){
-
-            //pruning condition
-            if(used[ind]){
+        //choice
+        for(int choice=0;choice<n;choice++){
+            
+            //prunning
+            if(used[choice]){
                 continue;
             }
-            if(ind > 0 && nums[ind] == nums[ind-1] && !used[ind-1]){
+            
+            //condition to avoid duplicate
+            if(choice > 0 && nums[choice] == nums[choice - 1] && !used[choice - 1]){
                 continue;
             }
-
-            //apply 
-            path.push_back(nums[ind]);
-            used[ind]=true;
-
-            //recursion
-            backtrack(nums,path,used,result);
-
-            //undo
-            path.pop_back();
-            used[ind]=false;
-
+            
+            //apply and undo
+            currPermutation.push_back(nums[choice]);
+            used[choice]=true;
+            
+            backtrack(n,currPermutation,uniqueCollection,used,nums);
+            
+            used[choice]=false;
+            currPermutation.pop_back();
+            
         }
-
+        
     }
-
+    
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         
+        vector<vector<int>> uniqueCollection;
+        vector<int> currPermutation;
+        
+        int n=nums.size();
+        vector<bool> used(n,false);
         sort(nums.begin(),nums.end());
-        vector<vector<int>> result;
-        vector<int> path;
-        vector<bool> used(nums.size(),false);
-        backtrack(nums,path,used,result);
-        return result;
 
+        backtrack(n,currPermutation,uniqueCollection,used,nums);
+        return uniqueCollection;
+        
     }
 };
