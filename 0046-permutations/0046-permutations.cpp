@@ -1,42 +1,44 @@
 class Solution {
 public:
-
-    void backtrack(vector<int>& nums,vector<bool>& used,vector<int>& path,vector<vector<int>>& result){
-
-        if(path.size() == nums.size()){
-            result.push_back(path);
+    
+    void backtrack(int n,vector<int>& currPermutation,vector<vector<int>>& permutationCollections,vector<bool>& used,vector<int>& nums){
+        
+        //basecase
+        if(currPermutation.size() == n){
+            permutationCollections.push_back(currPermutation);
             return;
         }
-
-        for(int ind=0;ind<nums.size();ind++){
-
-            //pruning condition
-            if(used[ind]){
+        
+        //choices
+        for(int choice=0;choice<n;choice++){
+            
+            //prunning
+            if(used[choice]){
                 continue;
             }
             
-            //apply
-            path.push_back(nums[ind]);
-            used[ind]=true;
-
-            //recursion
-            backtrack(nums,used,path,result);
-
-            //undo
-            path.pop_back();
-            used[ind]=false;
-
+            //apply and undo
+            currPermutation.push_back(nums[choice]);
+            used[choice]=true;
+            
+            backtrack(n,currPermutation,permutationCollections,used,nums);
+            
+            used[choice]=false;
+            currPermutation.pop_back();
+            
         }
-
+        
     }
-
+    
     vector<vector<int>> permute(vector<int>& nums) {
         
-        vector<vector<int>> result;
-        vector<int> path;
-        vector<bool> used(nums.size(),false);
-        backtrack(nums,used,path,result);
-        return result;
-
+        vector<vector<int>> permutationCollections;
+        vector<int> currPermutation;
+        
+        int n=nums.size();
+        vector<bool> used(n,false);
+        backtrack(n,currPermutation,permutationCollections,used,nums);
+        return permutationCollections;
+              
     }
 };
