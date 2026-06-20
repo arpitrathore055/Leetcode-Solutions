@@ -1,46 +1,59 @@
 class Solution {
 public:
-
-    bool isPalindrome(string &s, int l, int r) {
-        while (l < r) {
-            if (s[l++] != s[r--]) return false;
+    
+    bool isPalindrome(string strValue){
+        
+        int start=0;
+        int end=strValue.size()-1;
+        
+        while(start <= end){
+            if(strValue[start] != strValue[end]){
+                return false;
+            }
+            start++;
+            end--;
         }
         return true;
+        
     }
 
-    void backtrack(string s,int start,vector<string>& path,vector<vector<string>>& result){
-
-        //base case
-        if(start == s.length()){
-            result.push_back(path);
+    void backtrack(int startInd,int n,string& s,vector<string>& currPartitions,vector<vector<string>>& partitionCollection){
+        
+        //basecase
+        if(startInd == n){
+            partitionCollection.push_back(currPartitions);
             return;
         }
-
+        
         //choices
-        for(int end=start;end<s.length();end++){
-
-            //pruning condition
-            if(!isPalindrome(s,start,end)){
+        for(int choice=startInd;choice<n;choice++){
+            
+            //prunning
+            string strValue=s.substr(startInd,choice-startInd+1);
+            if(!isPalindrome(strValue)){
                 continue;
             }
-
-            //apply
-            path.push_back(s.substr(start,end-start+1));
-            //recursion
-            backtrack(s,end+1,path,result);
-            //undo
-            path.pop_back();
-
+            
+            //apply and undo
+            currPartitions.push_back(strValue);
+            
+            backtrack(choice+1,n,s,currPartitions,partitionCollection);
+            
+            currPartitions.pop_back();
+            
         }
-
+        
     }
-
+    
     vector<vector<string>> partition(string s) {
         
-        vector<vector<string>> result;
-        vector<string> path;
-        backtrack(s,0,path,result);
-        return result;
+        vector<vector<string>> partitionCollection;
+        vector<string> currPartitions;
+
+        int n=s.length();
+        int startInd=0;
+        backtrack(startInd,n,s,currPartitions,partitionCollection);
+        return partitionCollection;
 
     }
 };
