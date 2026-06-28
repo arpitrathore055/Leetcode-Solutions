@@ -180,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2121-find-if-path-exists-in-graph) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -194,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2121-find-if-path-exists-in-graph) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Graph
 |  |
 | ------- |
@@ -332,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1960-check-if-the-sentence-is-pangram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2150-find-all-lonely-numbers-in-the-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2150-find-all-lonely-numbers-in-the-array) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Matrix
 |  |
 | ------- |
@@ -358,6 +361,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0834-sum-of-distances-in-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0834-sum-of-distances-in-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Linked List
 |  |
 | ------- |
@@ -577,6 +581,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Stack
 |  |
 | ------- |
