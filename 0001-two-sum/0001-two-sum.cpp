@@ -1,14 +1,25 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        int n=nums.size();
-        for(int i=0;i<n-1;i++){
-            for(int j=i+1;j<n;j++){
-                if(nums[i] + nums[j] == target){
-                    return {i,j};
-                }
-            }
+       vector<pair<int,int>> indexMapping;
+       for(int i=0;i<nums.size();i++){
+        indexMapping.push_back({nums[i],i});
+       } 
+       sort(indexMapping.begin(),indexMapping.end());
+       int start=0;
+       int end=nums.size()-1;
+       while(start<end){
+        int value=indexMapping[start].first + indexMapping[end].first;
+        if(value == target){
+            return {indexMapping[start].second,indexMapping[end].second};
         }
-        return {-1,-1};
+        else if(value < target){
+            start++;
+        }
+        else{
+            end--;
+        }
+       }
+       return {-1,-1};
     }
 };
