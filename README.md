@@ -261,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0304-range-sum-query-2d-immutable](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0413-arithmetic-slices) |
+| [0435-non-overlapping-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0446-arithmetic-slices-ii-subsequence) |
 | [0525-contiguous-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -429,6 +430,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -515,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0413-arithmetic-slices) |
+| [0435-non-overlapping-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0446-arithmetic-slices-ii-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
@@ -569,6 +572,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
+| [0435-non-overlapping-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0977-squares-of-a-sorted-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
