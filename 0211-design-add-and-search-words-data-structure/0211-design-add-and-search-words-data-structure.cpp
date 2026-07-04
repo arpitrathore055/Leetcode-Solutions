@@ -35,7 +35,7 @@ public:
         currNode->isWord=true;
     }
     
-    bool findWord(TrieNode* currNode,int index,int n,string word){
+    bool findWord(TrieNode* currNode,int index,int n,string& word){
         
         //basecase
         if(index == n){
@@ -50,6 +50,9 @@ public:
                     continue;
                 }    
                 isPresent = isPresent || findWord(currNode->children[i],index+1,n,word);
+                if(isPresent){
+                    return true;
+                }
             }
             return isPresent;
             
