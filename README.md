@@ -217,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0023-merge-k-sorted-lists) |
+| [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
@@ -265,6 +266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0304-range-sum-query-2d-immutable](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0322-coin-change](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
@@ -336,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0525-contiguous-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -589,6 +592,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0977-squares-of-a-sorted-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
@@ -695,6 +699,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0190-reverse-bits](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0191-number-of-1-bits) |
 | [0240-search-a-2d-matrix-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Backtracking
 |  |
 | ------- |
@@ -729,6 +734,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [2150-find-all-lonely-numbers-in-the-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2150-find-all-lonely-numbers-in-the-array) |
 ## Rolling Hash
 |  |
@@ -754,4 +760,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0212-word-search-ii) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
