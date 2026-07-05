@@ -19,19 +19,31 @@ public:
         for(auto num:nums){
             freq[num]++;
         }
-
-        priority_queue<pair<int,int>,vector<pair<int,int>>,Compare> pq;
+        vector<vector<int>> bucket(nums.size()+1);
         for(auto entry:freq){
-            pq.push({entry.second,entry.first});
+            bucket[entry.second].push_back(entry.first);
         }
-        for(int i=0;i<k;i++){
-            if(pq.empty()){
+
+        for(int i=nums.size();i>=0;i--){
+            
+            if(k <= 0){
                 break;
             }
-            auto val=pq.top();
-            pq.pop();
-            topElements.push_back(val.second);
+
+            if(!bucket[i].empty()){
+                int size=bucket[i].size();
+                if(size >= k){
+                    topElements.insert(topElements.end(),bucket[i].begin(),bucket[i].begin()+k);
+                    k=size-k;
+                }
+                else{
+                    topElements.insert(topElements.end(),bucket[i].begin(),bucket[i].end());
+                    k=k-size;
+                }
+            }
+
         }
+        
         return topElements;
     }
 };
