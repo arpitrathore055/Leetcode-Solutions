@@ -241,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0051-n-queens) |
+| [0055-jump-game](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0064-minimum-path-sum) |
@@ -441,6 +442,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
@@ -515,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
+| [0055-jump-game](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0064-minimum-path-sum) |
