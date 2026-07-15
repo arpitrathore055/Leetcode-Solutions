@@ -1,47 +1,26 @@
-#include<bits/stdc++.h>
 class Solution {
 public:
     vector<int> partitionLabels(string s) {
         
         vector<int> partitionsSize;
-
-        map<char,pair<int,int>> charPosition;
+        map<char,int> charLastPosition;
         for(int i=0;i<s.length();i++){
-            char ch=s[i];
-            if(!charPosition.count(ch)){
-                charPosition[ch].first=i;
-            }
-            charPosition[ch].second=i;
+            charLastPosition[s[i]]=i;
         }
 
-        vector<pair<int,int>> intervals;
-        for(auto entry:charPosition){
-            intervals.push_back({entry.second.first,entry.second.second});
-        }
+        int startInd=0;
+        int boundaryInd=charLastPosition[s[0]];
+        for(int i=0;i<s.length();i++){
 
-        sort(begin(intervals),end(intervals));
+            boundaryInd=max(boundaryInd,charLastPosition[s[i]]);
 
-        int prevStart=intervals[0].first;
-        int prevEnd=intervals[0].second;
-        for(int i=1;i<intervals.size();i++){
+            if(i==boundaryInd){
 
-            int currStart=intervals[i].first;
-            int currEnd=intervals[i].second;
+                partitionsSize.push_back(i-startInd+1);
 
-            if(currStart <= prevEnd){
-                prevStart=min(prevStart,currStart);
-                prevEnd=max(prevEnd,currEnd);
+                startInd=i+1;
             }
-            else{
-                int currPartitionSize=prevEnd - prevStart+1;
-                partitionsSize.push_back(currPartitionSize);
-                prevStart=currStart;
-                prevEnd=currEnd;
-            }
-
         }
-        partitionsSize.push_back(prevEnd-prevStart+1);
-
         return partitionsSize;
 
     }
