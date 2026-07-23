@@ -217,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0023-merge-k-sorted-lists) |
+| [0239-sliding-window-maximum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -269,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0300-longest-increasing-subsequence) |
@@ -643,6 +645,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0413-arithmetic-slices](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0413-arithmetic-slices) |
 | [0424-longest-repeating-character-replacement](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0567-permutation-in-string) |
@@ -804,4 +807,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
