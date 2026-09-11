@@ -2,70 +2,68 @@ class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
 
-        vector<int> ans;
+        vector<int> subtringStartIndexes;
 
         int wordLen = words[0].length();
         int wordsSize = words.size();
+        int windowSize = wordLen * wordsSize;
 
-        // Required frequency of each word
+        if (s.length() < windowSize) {
+            return subtringStartIndexes;
+        }
+
         unordered_map<string, int> required;
+
         for (string word : words) {
             required[word]++;
         }
 
-        // We need wordLen different sliding windows
-        // Example: wordLen = 3 -> offsets 0, 1, 2
-        for (int offset = 0; offset < wordLen; offset++) {
+        for (int offset = 0; offset < wordLen; ++offset) {
 
             int start = offset;
             int end = offset;
             int wordsInWindow = 0;
+            unordered_map<string, int> available;
 
-            unordered_map<string, int> current;
+            // Starting with sliding window
+            while(end + wordLen <= s.length()){
 
-            while (end + wordLen <= s.length()) {
-
-                string word = s.substr(end, wordLen);
+                // Getting the word
+                string substr = s.substr(end, wordLen);
                 end += wordLen;
 
-                // Invalid word -> reset window
-                if (required.find(word) == required.end()) {
-                    current.clear();
-                    wordsInWindow = 0;
+                // Checking if the new word belongs to required and if not clear
+                // all progress made till now
+                if (required.find(substr) == required.end()) {
+                    available.clear();
                     start = end;
+                    wordsInWindow = 0;
                     continue;
                 }
 
-                // Add word to current window
-                current[word]++;
+                available[substr]++;
                 wordsInWindow++;
 
-                // Too many occurrences of this word
-                while (current[word] > required[word]) {
-
+                // Checking if the freq exceeds whats required, if yes then
+                // start trimming from left
+                while (available[substr] > required[substr]) {
                     string leftWord = s.substr(start, wordLen);
-
-                    current[leftWord]--;
-                    wordsInWindow--;
+                    available[leftWord]--;
                     start += wordLen;
+                    wordsInWindow--;
                 }
 
-                // Exactly the required number of words
-                if (wordsInWindow == wordsSize) {
-
-                    ans.push_back(start);
-
-                    // Remove leftmost word to search for
-                    // the next possible overlapping window
+                // When the window contains all the words
+                while (wordsInWindow == wordsSize) {
+                    subtringStartIndexes.push_back(start);
                     string leftWord = s.substr(start, wordLen);
-
-                    current[leftWord]--;
-                    wordsInWindow--;
+                    available[leftWord]--;
                     start += wordLen;
+                    wordsInWindow--;
                 }
             }
         }
 
-        return ans;
+        return subtringStartIndexes;
     }
 };
