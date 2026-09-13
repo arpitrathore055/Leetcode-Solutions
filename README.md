@@ -283,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0304-range-sum-query-2d-immutable](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0322-coin-change](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
@@ -364,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -441,6 +443,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0241-different-ways-to-add-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0279-perfect-squares) |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0628-maximum-product-of-three-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
@@ -746,6 +749,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0304-range-sum-query-2d-immutable](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0729-my-calendar-i](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0732-my-calendar-iii) |
@@ -862,4 +866,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0287-find-the-duplicate-number) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
