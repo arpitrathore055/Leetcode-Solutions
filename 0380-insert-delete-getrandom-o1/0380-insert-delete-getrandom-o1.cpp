@@ -1,47 +1,44 @@
 class RandomizedSet {
-    
-    vector<int>vect;
-    unordered_map<int,int>mp;
-    int vectSize,mpSize;
+
+    unordered_map<int,int> indexMap;
+    vector<int> setElements;
 
 public:
     RandomizedSet() {
-        vectSize=0;
-        mpSize=0;
+        
     }
     
     bool insert(int val) {
-        if(mp.find(val)==mp.end()){
-            mp[val]=vectSize;
-            vect.push_back(val);
-            ++vectSize;
-            ++mpSize;
-            return true;
-        }
-        else{
+
+        if(indexMap.find(val) != indexMap.end()){
             return false;
         }
+        setElements.push_back(val);
+        indexMap[val]=setElements.size()-1;
+        return true;
+        
     }
     
     bool remove(int val) {
-        if(mp.find(val)!=mp.end()){
-            int targetInd=mp[val];
-            vect[targetInd]=vect[vectSize-1];
-            vect.pop_back();
-            --vectSize;
-            mp[vect[targetInd]]=targetInd;
-            mp.erase(val);
-            --mpSize;
-            return true;
-        }
-        else{
+        
+        if(indexMap.find(val) == indexMap.end()){
             return false;
         }
+        int swappedValue=setElements.back();
+        int swappedIndex=indexMap[val];
+        swap(setElements[indexMap[val]],setElements.back());
+        setElements.pop_back();
+        indexMap[swappedValue]=swappedIndex;
+        indexMap.erase(val);
+
+        return true;
+
     }
     
     int getRandom() {
-        int randInd=rand()%mpSize;
-        return vect[randInd];
+
+        return setElements[rand() % setElements.size()];
+
     }
 };
 
