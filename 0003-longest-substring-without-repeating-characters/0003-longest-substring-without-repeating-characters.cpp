@@ -2,28 +2,31 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         
-        int l=0,r=0,n=s.length();
-        unordered_map<char,int> umap;
-        int maxSubarrayLen=0,duplicatesCount=0;
-        for(;r<n;r++){
-
-            //updation part
-            if(++umap[s[r]] == 2){
-                duplicatesCount++;
+        int sLen=s.length();
+        unordered_set<char> st;
+        
+        int start=0;
+        int end=0;
+        int maxSubstringLen=0;
+        
+        for(;end<sLen;){
+            
+            if(!st.count(s[end])){
+                st.insert(s[end]);
+                ++end;
             }
-
-            //invalid scenerio part
-            while(duplicatesCount > 0 && l<=r){
-                if(--umap[s[l]] ==1){
-                    duplicatesCount--;
+            else{
+                maxSubstringLen=max(maxSubstringLen,end-start);
+                while(st.count(s[end]) && start<end){
+                    st.erase(s[start]);
+                    start++;
                 }
-                l++;
+                
             }
-
-            //ans computation part
-            maxSubarrayLen=max(maxSubarrayLen,(r-l+1));
+        
         }
-        return maxSubarrayLen;
-
+        maxSubstringLen=max(maxSubstringLen,end-start);
+        return maxSubstringLen;
+        
     }
 };
