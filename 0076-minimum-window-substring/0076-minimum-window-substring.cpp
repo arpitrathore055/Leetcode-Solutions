@@ -2,50 +2,54 @@ class Solution {
 public:
     string minWindow(string s, string t) {
         
-        if(t.length() > s.length()){
+        int sLen=s.length();
+        int tLen=t.length();
+        
+        if(sLen < tLen){
             return "";
         }
-        unordered_map<char,int>required;
-        unordered_map<char,int>window;
-        for(auto& ch:t){
+        
+        unordered_map<char,int> required;
+        unordered_map<char,int> available;
+        
+        for(char ch:t){
             required[ch]++;
         }
-        int reqDistinctCh=required.size();
-        int currDistinctCh=0;
-        int minSubarrayLen=INT_MAX;
-        int minSubarrayStartInd=0;
-        int l=0,r=0;
-        for(;r<s.length();r++){
-
-            //updation part
-            window[s[r]]++;
-            if(required.find(s[r]) != required.end() && required[s[r]] == window[s[r]]){
-                currDistinctCh++;
+        
+        int minSubstringLen=INT_MAX;
+        int startIndex=0;
+        int availableCharacters=0;
+        int requiredCharacters=required.size();
+        int start=0;
+        int end=0;
+        
+        for(;end<sLen;){
+            
+            //updation
+            if(++available[s[end]] == required[s[end]]){
+                availableCharacters++;
             }
-
-            //minimum subarray part
-            while(currDistinctCh == reqDistinctCh){
-
-                if(r - l + 1 < minSubarrayLen){
-                    minSubarrayLen = r - l + 1;
-                    minSubarrayStartInd = l;
+            ++end;
+            
+            //invalidation
+            //answer compute
+            while(availableCharacters == requiredCharacters){
+                
+                if((end -start) < minSubstringLen){
+                    minSubstringLen=end-start;
+                    startIndex=start;    
                 }
-                window[s[l]]--;
-                if(required.find(s[l]) != required.end() && window[s[l]] < required[s[l]]){
-                    currDistinctCh--;
+                //start removing from left
+                if(--available[s[start]] < required[s[start]]){
+                    availableCharacters--;
                 }
-                l++;
-
+                start++;
+                
             }
-
-            //ans computation part
-
+            
+            
         }
-
-        if(minSubarrayLen == INT_MAX){
-            return "";
-        }
-        return s.substr(minSubarrayStartInd,minSubarrayLen);
-
+        return (minSubstringLen == INT_MAX)?"":s.substr(startIndex,minSubstringLen);
+        
     }
 };
