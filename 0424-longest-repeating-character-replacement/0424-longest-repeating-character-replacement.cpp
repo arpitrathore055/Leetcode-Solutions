@@ -2,37 +2,33 @@ class Solution {
 public:
     int characterReplacement(string s, int k) {
         
-        vector<int> freq(26,0);
-        int maxSize=0;
-        int maxFreq=0;
-        int i=0,j=0;
-        for(;j<s.length();j++){
-
+        int sLen=s.length();
+        unordered_map<char,int> mp;
+        
+        int start=0;
+        int end=0;
+        int maxSubstringLen=0;
+        int maxCharacterCount=0;
+        
+        for(;end<sLen;end++){
             //updation
-            freq[s[j]-'A']++;
-            maxFreq=max(maxFreq,freq[s[j]-'A']);
-            int windowLength=j-i+1;
-
-            //check for invalid condition and based on that we'll reduce window size
-            if((windowLength - maxFreq) > k){
-
-                while((windowLength - maxFreq) > k){
-                    freq[s[i]-'A']--;
-                    ++i;
-                    //maxFreq=max(maxFreq,freq[s[i]-'a']);
-                    //we have to look for a solution so that again iteration over freq completely is avoided
-
-                    windowLength=j-i+1;
-                }
-
+            mp[s[end]]++;
+            maxCharacterCount=max(maxCharacterCount,mp[s[end]]);
+            int windowSize=end-start+1;
+            
+            //invalidation
+            while((windowSize - maxCharacterCount) > k){
+                mp[s[start]]--;
+                start++;
+                windowSize=end-start+1;
             }
-
-            //if everything fine, ans(maxSize) updation
-            maxSize=max(maxSize,windowLength);
-
+            
+            //answer compute
+            maxSubstringLen=max(maxSubstringLen,windowSize);
+            
         }
-
-        return maxSize;
-
+        
+        return maxSubstringLen;
+        
     }
 };
