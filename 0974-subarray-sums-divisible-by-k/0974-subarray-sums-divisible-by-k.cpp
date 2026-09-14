@@ -1,19 +1,26 @@
 class Solution {
 public:
     int subarraysDivByK(vector<int>& nums, int k) {
+  
+        int n=nums.size();
+        unordered_map<int,int> prefix;
+        prefix[0]=1;
         
-        int count=0,n=nums.size();
-        unordered_map<int,int> remainderPresence;
-        remainderPresence[0]=1;
-        int currSubarraySum=0;
+        int currSum=0;
+        int countSubarrays=0;
+        
         for(int i=0;i<n;i++){
-            currSubarraySum+=nums[i];
-            int targetRemainder=((currSubarraySum % k) + k) % k;
-            if(remainderPresence.find(targetRemainder) != remainderPresence.end()){
-                count+=remainderPresence[targetRemainder];
+            
+            currSum+=nums[i];
+            int targetPrefix=((currSum%k)+k)%k;
+            if(prefix.find(targetPrefix) != prefix.end()){
+                countSubarrays+=prefix[targetPrefix];
             }
-            remainderPresence[targetRemainder]++;
+            prefix[targetPrefix]++;
+            
         }
-        return count;
+        
+        return countSubarrays;
+        
     }
 };
