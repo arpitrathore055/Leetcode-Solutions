@@ -2,35 +2,35 @@ class Solution {
 public:
     int maxFrequency(vector<int>& nums, int k) {
         
-        int windowSize=0;
-        long long int windowSum=0;
-        int maxFreq=0;
-        int left=0,right=0;
-
-        sort(nums.begin(),nums.end());
-
-        for(;right<nums.size();right++){
-
-            //updation
-            windowSum+=nums[right];
-            windowSize=(right-left+1);
-
-
-            //shrinking based on invalid scenerio
-            while(((1LL*nums[right]*windowSize)-windowSum) > k){
-                windowSum-=nums[left];
-                ++left;
-                windowSize=(right-left+1);
+        sort(nums.begin(), nums.end());
+        
+        int n=nums.size();
+        
+        int start=0;
+        int end=0;
+        int maxFrequency=0;
+        long long currSum=0;
+        
+        for(;end<n;++end){
+            
+            // updation
+            currSum+=nums[end];
+            int windowSize=end-start+1;
+            
+            // invalidation
+            while(((long long)windowSize*nums[end])-currSum > k){
+                
+                currSum-=nums[start];
+                start++;
+                windowSize=end-start+1;
+                
             }
-
-            //computing ans
-            if(((1LL*nums[right]*windowSize)-windowSum) <= k){
-                maxFreq=max(maxFreq,windowSize);
-            }
-
+            
+            // answer compute
+            maxFrequency=max(maxFrequency,windowSize);
+            
         }
-
-        return maxFreq;
-
+        
+        return maxFrequency;
     }
 };
