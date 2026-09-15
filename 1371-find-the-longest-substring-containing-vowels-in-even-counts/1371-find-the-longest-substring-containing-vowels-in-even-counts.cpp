@@ -1,32 +1,57 @@
 class Solution {
 public:
-    int findTheLongestSubstring(string s) {
-
-        unordered_map<int,int> prefix;
-        prefix[0]=-1;
-        int mask=0;
-        int maxLen=0;
-
-        for(int j=0;j<s.length();j++){
-
-            char ch=s[j];
-
-            if(ch == 'a') mask^= (1<<0);
-            else if(ch == 'e') mask^= (1<<1);
-            else if(ch == 'i') mask^= (1<<2);
-            else if(ch == 'o') mask^= (1<<3);
-            else if(ch == 'u') mask^= (1<<4);
-            
-            if(prefix.find(mask) != prefix.end()){
-                maxLen=max(maxLen,j-prefix[mask]);
-            }
-            else{
-                prefix[mask]=j;
-            }
-
+    
+    int getTargetParity(int parity,char ch){
+        
+        int bit=-1;
+        if(ch == 'a'){
+            bit=0;
         }
-
-        return maxLen;
-
+        else if(ch == 'e'){
+            bit=1;
+        }
+        else if(ch == 'i'){
+            bit=2;
+        }
+        else if(ch == 'o'){
+            bit=3;
+        }
+        else if(ch == 'u'){
+            bit=4;
+        }
+        else{
+            return parity;
+        }
+        
+        parity^= (1<<bit);
+        
+        return parity;
+        
+    }
+    
+    int findTheLongestSubstring(string s) {
+  
+        int sLen=s.length();
+        unordered_map<int,int> parityMap;
+        parityMap[0]=-1;
+        
+        int parity=0;
+        int maxSubstringLen=0;
+        
+        for(int i=0;i<sLen;i++){
+            
+            parity=getTargetParity(parity,s[i]);
+  
+            if(parityMap.find(parity) == parityMap.end()){
+                parityMap[parity]=i;
+                continue;
+            }
+            
+            maxSubstringLen=max(maxSubstringLen,(i-parityMap[parity]));
+            
+        }
+        
+        return maxSubstringLen;
+        
     }
 };
