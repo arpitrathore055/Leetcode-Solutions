@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Shortest Path
@@ -300,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0846-hand-of-straights](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0846-hand-of-straights) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0930-binary-subarrays-with-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -634,6 +636,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0732-my-calendar-iii) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -681,6 +684,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0713-subarray-product-less-than-k) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
@@ -726,6 +730,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0732-my-calendar-iii) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
@@ -854,10 +859,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Union-Find
 |  |
 | ------- |
