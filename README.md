@@ -458,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0628-maximum-product-of-three-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0795-k-th-symbol-in-grammar](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0795-k-th-symbol-in-grammar) |
+| [0878-nth-magical-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0878-nth-magical-number) |
 | [1013-fibonacci-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1248-count-number-of-nice-subarrays) |
 ## Recursion
@@ -647,6 +648,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0731-my-calendar-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0732-my-calendar-iii) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [0878-nth-magical-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0878-nth-magical-number) |
 | [0907-koko-eating-bananas](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -896,4 +898,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+## Least Common Multiple
+|  |
+| ------- |
+| [0878-nth-magical-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0878-nth-magical-number) |
+## Inclusion-Exclusion Principle
+|  |
+| ------- |
+| [0878-nth-magical-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0878-nth-magical-number) |
 <!---LeetCode Topics End-->
