@@ -11,23 +11,20 @@ public:
         vector<int> nextGreater(n,-1);
         stack<int> st;
         
-        for(int times=2;times>0;times--){
+        for(int i=2*n-1;i>=0;i--){
             
-            for(int i=n-1;i>=0;i--){
-            
-                int value=nums[i];
-                while(!st.empty() && st.top() <= value){
-                    st.pop();
-                }
-                
-                if(!st.empty()){
-                    nextGreater[i]=st.top();
-                }
-                st.push(value);
-            
+            int value=nums[i%n];
+            while(!st.empty() && st.top() <= value){
+                st.pop();
             }
             
+            if(!st.empty()){
+                nextGreater[i%n]=st.top();
+            }
+            st.push(value);
+            
         }
+        
         
         return nextGreater;
         
