@@ -508,6 +508,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0134-gas-station) |
 | [0179-largest-number](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0179-largest-number) |
+| [0402-remove-k-digits](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0646-maximum-length-of-pair-chain) |
@@ -546,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0212-word-search-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
+| [0402-remove-k-digits](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0567-permutation-in-string) |
@@ -742,6 +744,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0155-min-stack) |
+| [0402-remove-k-digits](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0739-daily-temperatures) |
 | [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
@@ -865,6 +868,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0085-maximal-rectangle) |
+| [0402-remove-k-digits](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0739-daily-temperatures) |
 | [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
