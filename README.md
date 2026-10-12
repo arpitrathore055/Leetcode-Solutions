@@ -297,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0442-find-all-duplicates-in-an-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0446-arithmetic-slices-ii-subsequence) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0503-next-greater-element-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
@@ -741,6 +742,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0155-min-stack) |
+| [0503-next-greater-element-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0739-daily-temperatures) |
 | [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
@@ -863,6 +865,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0085-maximal-rectangle) |
+| [0503-next-greater-element-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0739-daily-temperatures) |
 | [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
 ## Graph Theory
