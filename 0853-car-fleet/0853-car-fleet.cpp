@@ -6,28 +6,29 @@ public:
         stack<double> st;
         int fleetCount=0;
         
-        unordered_map<int,int> carSpeed;
+        vector<pair<int,int>> cars(n);
         for(int i=0;i<n;i++){
-            carSpeed[position[i]]=speed[i];
+            cars[i]={position[i],speed[i]};
         }
         
-        sort(position.begin(),position.end(),[](const int& a,const int& b){
-           return a>b; 
-        });
+        sort(cars.begin(), cars.end(),
+           [](const auto& a, const auto& b) {
+               return a.first > b.first;
+           });
+
+        double prevTimeRequired=-1;
         
         for(int i=0;i<n;i++){
             
-            double timeRequired=(double)(target-position[i])/carSpeed[position[i]];
+            double timeRequired=(double)(target-cars[i].first)/cars[i].second;
             
-            if(!st.empty() && st.top() >= timeRequired){
-                continue;
+            if(timeRequired >prevTimeRequired){
+                fleetCount++;
+                prevTimeRequired=timeRequired;
             }
             
-            st.push(timeRequired);
-            
         }
         
-        fleetCount=st.size();
         return fleetCount;
         
     }
