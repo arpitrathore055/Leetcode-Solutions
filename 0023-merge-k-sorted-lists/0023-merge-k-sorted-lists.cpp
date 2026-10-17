@@ -10,41 +10,41 @@
  */
 class Solution {
 public:
-
-    struct comparator{
-        bool operator()(ListNode* l1,ListNode* l2) const {
-            return l1->val > l2->val;
-        }
-    };
-
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        
-        priority_queue<ListNode*,vector<ListNode*>,comparator> minHeap;
-
+     
         ListNode* head=nullptr;
         ListNode* tail=nullptr;
-        for(ListNode* listHead:lists){
-            if(listHead!=nullptr){
-                minHeap.push(listHead);
+        priority_queue pq([](const ListNode* list1,const ListNode* list2){
+            return list1->val > list2->val;
+        },vector<ListNode*>{});
+        
+        for(auto& list:lists){
+            if(list != nullptr){
+                pq.push(list);                
             }
         }
-        while(!minHeap.empty()){
-            ListNode* front=minHeap.top();
-            minHeap.pop();
-
-            if(head == nullptr){
-                head=front;
-                tail=front;
+        
+        while(!pq.empty()){
+            
+            ListNode* frontNode=pq.top();
+            pq.pop();
+            if(tail==nullptr){
+                head=frontNode;
+                tail=frontNode;
             }
             else{
-                tail->next=front;
+                tail->next=frontNode;
                 tail=tail->next;
             }
-            if(front->next != nullptr){
-                minHeap.push(front->next);
+            
+            if(frontNode->next!=nullptr){
+                pq.push(frontNode->next);
             }
-            tail->next=nullptr;
+            
         }
+        
+        
         return head;
+        
     }
 };
