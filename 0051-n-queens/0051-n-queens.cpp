@@ -1,59 +1,66 @@
 class Solution {
 public:
     
-    bool isSafePlacement(int currRow, int rows,
-              int choice, int cols,
-              vector<vector<bool>>& queenPlaced) {
-
-    // same column
-    for(int r = 0; r < currRow; r++)
-        if(queenPlaced[r][choice])
-            return false;
-
-    // upper-left diagonal
-    for(int r = currRow - 1, c = choice - 1;
-        r >= 0 && c >= 0;
-        r--, c--)
-        if(queenPlaced[r][c])
-            return false;
-
-    // upper-right diagonal
-    for(int r = currRow - 1, c = choice + 1;
-        r >= 0 && c < cols;
-        r--, c++)
-        if(queenPlaced[r][c])
-            return false;
-
-    return true;
-}
-    
-    void backtrack(int currRow,int rows,int cols,vector<string>& currPlacement,vector<vector<string>>& solutions,vector<vector<bool>>& queenPlaced){
+    bool isValidPlacement(int row,int col,int n,vector<vector<bool>>& queenPlaced){
         
-        //basecase
-        if(currRow == rows){
-            solutions.push_back(currPlacement);
+        bool isSafeToPlace=true;
+        //vertical check
+        for(int i=row;i>=0;i--){
+            if(queenPlaced[i][col]){
+                return false;
+            }
+        }
+        
+        //horizontal check
+        for(int i=col;i>=0;i--){
+            if(queenPlaced[row][i]){
+                return false;
+            }
+        }
+        
+        //upper right diagonal
+        for(int i=row,j=col;i>=0 && j < n;i--,j++){
+            if(queenPlaced[i][j]){
+                return false;
+            }
+        }
+        
+        //upper left diagonal
+        for(int i=row,j=col;i>=0 && j>=0;i--,j--){
+            if(queenPlaced[i][j]){
+                return false;
+            }
+        }
+        
+        return isSafeToPlace;
+        
+    }
+    
+    void backtrack(vector<string>& validPlacement,int row,int n,vector<vector<string>>& validCombinations,vector<vector<bool>>& queenPlaced){
+        
+        if(row == n){
+            //validPlacement : [".......Q...."]["..Q........."][".........Q."]["....Q......"]
+            validCombinations.push_back(validPlacement);
             return;
         }
         
-        for(int choice=0;choice<cols;choice++){
+        for(int col=0;col<n;col++){
             
-            //prunning
-            if(!isSafePlacement(currRow,rows,choice,cols,queenPlaced)){
+            if(!isValidPlacement(row,col,n,queenPlaced)){
                 continue;
             }
             
-            //apply and undo
-            string placement(cols,'.');
-            placement[choice]='Q';
-            queenPlaced[currRow][choice]=true;
+            string currentRowPlacement(n,'.');
+            currentRowPlacement[col]='Q';
             
-            int oldSize=currPlacement.size();
-            currPlacement.push_back(placement);
+            int prevSizeValidPlacement=validPlacement.size();
+            validPlacement.push_back(currentRowPlacement);
+            queenPlaced[row][col]=true;
             
-            backtrack(currRow+1,rows,cols,currPlacement,solutions,queenPlaced);
+            backtrack(validPlacement,row+1,n,validCombinations,queenPlaced);
             
-            queenPlaced[currRow][choice]=false;
-            currPlacement.resize(oldSize);
+            queenPlaced[row][col]=false;
+            validPlacement.resize(prevSizeValidPlacement);
             
         }
         
@@ -61,16 +68,14 @@ public:
     
     vector<vector<string>> solveNQueens(int n) {
         
-        vector<vector<string>> solutions;
-        vector<string> currPlacement;
+        vector<vector<string>> validCombinations;
+        vector<string> validPlacement;
         vector<vector<bool>> queenPlaced(n,vector<bool>(n,false));
         
-        int rows=n;
-        int cols=n;
-        int currRow=0;
+        backtrack(validPlacement,0,n,validCombinations,queenPlaced);
         
-        backtrack(currRow,rows,cols,currPlacement,solutions,queenPlaced);
-        return solutions;
+        return validCombinations;
         
     }
+    
 };
