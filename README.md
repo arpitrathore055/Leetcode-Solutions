@@ -1005,5 +1005,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Algorithm X
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0051-n-queens) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
