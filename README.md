@@ -1002,4 +1002,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
