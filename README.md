@@ -183,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0871-keys-and-rooms) |
 | [0922-possible-bipartition](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -201,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0871-keys-and-rooms](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0871-keys-and-rooms) |
 | [0922-possible-bipartition](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2121-find-if-path-exists-in-graph) |
@@ -412,6 +414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0930-binary-subarrays-with-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0992-subarrays-with-k-different-integers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1124-longest-well-performing-interval](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1124-longest-well-performing-interval) |
@@ -463,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
 | [0834-sum-of-distances-in-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0834-sum-of-distances-in-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -727,6 +731,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0846-hand-of-straights](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0846-hand-of-straights) |
 | [0853-car-fleet](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0853-car-fleet) |
 | [0977-squares-of-a-sorted-array](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1094-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1094-car-pooling) |
 | [1129-longest-string-chain](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1129-longest-string-chain) |
 | [1184-car-pooling](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1184-car-pooling) |
@@ -774,6 +779,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
