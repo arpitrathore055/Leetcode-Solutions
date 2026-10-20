@@ -9,51 +9,59 @@
  */
 class Solution {
 public:
-
-    unordered_map<TreeNode*,TreeNode*> parentMapping;
-    unordered_set<TreeNode*> visitedNodes;
-
-    void dfsForParentMapping(TreeNode* root,TreeNode* parent){
-
+    
+    void dfsTraversal(TreeNode* root,TreeNode* parent,unordered_map<int,TreeNode*>& parentMapping){
+    
         if(root == nullptr){
             return;
         }
+        
         if(parent != nullptr){
-            parentMapping[root]=parent;
+            parentMapping[root->val]=parent;
         }
-        dfsForParentMapping(root->left,root);
-        dfsForParentMapping(root->right,root);
-
+        
+        dfsTraversal(root->left,root,parentMapping);
+        dfsTraversal(root->right,root,parentMapping);
+        
     }
-
-    void dfsTraversal(TreeNode* source,int& k,int currDist,vector<int>& nodesAtKDist){
-
-        visitedNodes.insert(source);
-
-        if(currDist == k){
-            nodesAtKDist.push_back(source->val);
+    
+    void dfsTraversal(TreeNode* target,int currLevel,int k,unordered_set<int>& visited,unordered_map<int,TreeNode*>& parentMapping,vector<int>& kDistNodes){
+        
+        visited.insert(target->val);
+        
+        if(currLevel == k){
+            kDistNodes.push_back(target->val);
             return;
         }
-
-        if(source->left != nullptr && !visitedNodes.count(source->left)){
-            dfsTraversal(source->left,k,currDist+1,nodesAtKDist);
+        
+        //left
+        if(target->left != nullptr && visited.find(target->left->val) == visited.end()){
+            dfsTraversal(target->left,currLevel+1,k,visited,parentMapping,kDistNodes);
         }
-        if(source->right != nullptr && !visitedNodes.count(source->right)){
-            dfsTraversal(source->right,k,currDist+1,nodesAtKDist);
+        
+        //right
+        if(target->right != nullptr && visited.find(target->right->val) == visited.end()){
+            dfsTraversal(target->right,currLevel+1,k,visited,parentMapping,kDistNodes);
         }
-        if(parentMapping.find(source) != parentMapping.end() && !visitedNodes.count(parentMapping[source])){
-            dfsTraversal(parentMapping[source],k,currDist+1,nodesAtKDist);
+        
+        //parent
+        if(parentMapping.find(target->val) != parentMapping.end() && visited.find(parentMapping[target->val]->val) == visited.end()){
+            dfsTraversal(parentMapping[target->val],currLevel+1,k,visited,parentMapping,kDistNodes);
         }
-
+        
+        
     }
-
+    
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
         
-        vector<int> nodesAtKDist;
+        vector<int> kDistNodes;
+        unordered_map<int,TreeNode*> parentMapping;
+        unordered_set<int> visited;
         
-        dfsForParentMapping(root,nullptr);
-        dfsTraversal(target,k,0,nodesAtKDist);
-
-        return nodesAtKDist;
+        dfsTraversal(root,nullptr,parentMapping);
+        dfsTraversal(target,0,k,visited,parentMapping,kDistNodes);
+              
+        return kDistNodes;
+        
     }
 };
