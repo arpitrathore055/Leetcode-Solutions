@@ -12,28 +12,30 @@
 class Solution {
 public:
     
-    pair<int,int> dfs(TreeNode* root){
-        
+    pair<int,int> dfsTraversal(TreeNode* root){
+
         if(root == nullptr){
             return {0,0};
         }
+
+        pair<int,int> maxRobbedValueLeft=dfsTraversal(root->left);
+        pair<int,int> maxRobbedValueRight=dfsTraversal(root->right);
         
-        auto leftCompute=dfs(root->left);
-        auto rightCompute=dfs(root->right);
+        //computing for root not taken/robbed
+        int notRobbed=max(maxRobbedValueLeft.first,maxRobbedValueLeft.second) + max(maxRobbedValueRight.first,maxRobbedValueRight.second);
+
+        //computing for root take/robbed
+        int robbed=root->val + maxRobbedValueLeft.first + maxRobbedValueRight.first;
         
-        //computing for not robbing root
-        int notTake=max(leftCompute.first,leftCompute.second) + max(rightCompute.first,rightCompute.second);
+        return {notRobbed,robbed};
         
-        //computing for robbing root
-        int take=root->val + leftCompute.first + rightCompute.first; 
-        
-        return {notTake,take};
     }
     
     int rob(TreeNode* root) {
-  
-        pair<int,int> maxRobbedValue=dfs(root);
-  
+     
+        //pair<root not taken,root taken>
+        pair<int,int> maxRobbedValue=dfsTraversal(root);
         return max(maxRobbedValue.first,maxRobbedValue.second);
+        
     }
 };
