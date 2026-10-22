@@ -11,31 +11,38 @@
  */
 class Solution {
 public:
-
-    tuple<bool,long long,long long> validBST(TreeNode* root){
-        //basecase
+    
+    bool dfsTraversal(TreeNode* root,TreeNode*& prevNode){
+        
         if(root == nullptr){
-            return {true,LLONG_MAX,LLONG_MIN};
+            return true;
         }
-
-        tuple<bool,long long,long long> left_child_ans=validBST(root->left);
-        tuple<bool,long long,long long> right_child_ans=validBST(root->right);
-
-        if(get<0>(left_child_ans) && get<0>(right_child_ans)){
-            //checking for validity
-            long long left_child_max=get<2>(left_child_ans);
-            long long right_child_min=get<1>(right_child_ans);
-            long long value=root->val;
-            if(left_child_max < root->val && right_child_min > root->val){
-                return {true,min(get<1>(left_child_ans),value),max(get<2>(right_child_ans),value)};
-            }
+        
+        bool isValidLeft=dfsTraversal(root->left,prevNode);
+        
+        if(!isValidLeft){
+            return false;
         }
-        return {false,LLONG_MAX,LLONG_MIN};
+        
+        if(prevNode != nullptr && root->val <= prevNode->val){
+            return false;    
+        }
+        prevNode=root;
+        
+        bool isValidRight=dfsTraversal(root->right,prevNode);
+        
+        if(!isValidRight){
+            return false;
+        }
+        
+        return true;
+        
     }
-
+    
     bool isValidBST(TreeNode* root) {
-        //isBST,minInBST,maxInBST
-        tuple<bool,long long,long long> ans=validBST(root);
-        return get<0>(ans);
+        
+        TreeNode* prevNode=nullptr;
+        return dfsTraversal(root,prevNode);
+
     }
 };
