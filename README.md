@@ -166,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0079-word-search](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0099-recover-binary-search-tree) |
 | [0113-path-sum-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0133-clone-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0133-clone-graph) |
@@ -454,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0099-recover-binary-search-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0113-path-sum-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0113-path-sum-ii) |
@@ -768,6 +770,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0099-recover-binary-search-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0113-path-sum-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0113-path-sum-ii) |
@@ -901,6 +904,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0099-recover-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Merge Sort
