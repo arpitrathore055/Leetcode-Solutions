@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
 | [0437-path-sum-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0279-perfect-squares](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0279-perfect-squares) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0322-coin-change) |
 | [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
@@ -468,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
 | [0437-path-sum-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
@@ -589,6 +592,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0212-word-search-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0316-remove-duplicate-letters](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -788,6 +792,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
 | [0437-path-sum-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
@@ -858,6 +863,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0304-range-sum-query-2d-immutable](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0729-my-calendar-i](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0729-my-calendar-i) |
