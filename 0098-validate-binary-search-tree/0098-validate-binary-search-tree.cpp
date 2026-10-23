@@ -11,38 +11,35 @@
  */
 class Solution {
 public:
-    
-    bool dfsTraversal(TreeNode* root,TreeNode*& prevNode){
-        
+
+    bool dfsTraversal(TreeNode* root,TreeNode*& prev){
+
         if(root == nullptr){
             return true;
         }
-        
-        bool isValidLeft=dfsTraversal(root->left,prevNode);
-        
-        if(!isValidLeft){
+
+        bool leftTraversalRes=dfsTraversal(root->left,prev);
+        if(!leftTraversalRes){
             return false;
         }
-        
-        if(prevNode != nullptr && root->val <= prevNode->val){
-            return false;    
-        }
-        prevNode=root;
-        
-        bool isValidRight=dfsTraversal(root->right,prevNode);
-        
-        if(!isValidRight){
+
+        if(prev != nullptr && root->val <= prev->val){
             return false;
         }
-        
+        prev=root;
+
+        bool rightTraversalRes=dfsTraversal(root->right,prev);
+        if(!rightTraversalRes){
+            return false;
+        }
+
         return true;
-        
-    }
-    
-    bool isValidBST(TreeNode* root) {
-        
-        TreeNode* prevNode=nullptr;
-        return dfsTraversal(root,prevNode);
 
     }
+
+    bool isValidBST(TreeNode* root) {
+        TreeNode* prevNode=nullptr;
+        return dfsTraversal(root,prevNode);
+    }
+
 };
