@@ -1,44 +1,38 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
 
-    int findLeftHeight(TreeNode* root){
-        if(root==NULL){
-            return 0;
-        }
-        return findLeftHeight(root->left)+1;
-    }
-    
-    int findRightHeight(TreeNode* root){
-        if(root==NULL){
-            return 0;
-        }
-        return findRightHeight(root->right)+1;
-    }
+    void dfsTraversal(TreeNode* root, int& height, bool exploreLeft) {
 
-    int countCompleteTreeNodes(TreeNode* root,int level){
-        if(root==NULL){
-            return 0;
+        if(root == nullptr){
+            return;
         }
-        int leftCTHeight=findLeftHeight(root);
-        int rightCTHeight=findRightHeight(root);
-        if(leftCTHeight==rightCTHeight){
-            return pow(2,leftCTHeight)-1;
+
+        height++;
+
+        if(exploreLeft){
+            dfsTraversal(root->left, height, exploreLeft);
         }
-        return countCompleteTreeNodes(root->left,level+1) + countCompleteTreeNodes(root->right,level+1) + 1;
+        else{
+            dfsTraversal(root->right, height, exploreLeft);
+        }
     }
 
     int countNodes(TreeNode* root) {
-        return countCompleteTreeNodes(root,0);
+
+        if(root == nullptr){
+            return 0;
+        }
+
+        int leftHeight = 0;
+        int rightHeight = 0;
+
+        dfsTraversal(root, leftHeight, true);
+        dfsTraversal(root, rightHeight, false);
+
+        if(leftHeight == rightHeight){
+            return static_cast<int>((1LL << leftHeight) - 1);
+        }
+
+        return 1 + countNodes(root->left) + countNodes(root->right);
     }
 };
