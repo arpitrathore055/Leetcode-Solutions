@@ -177,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
 | [0437-path-sum-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0834-sum-of-distances-in-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0834-sum-of-distances-in-tree) |
@@ -198,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0279-perfect-squares](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0322-coin-change) |
+| [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0744-network-delay-time](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -466,6 +468,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
 | [0437-path-sum-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0834-sum-of-distances-in-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0834-sum-of-distances-in-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -781,6 +784,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
 | [0437-path-sum-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0606-construct-string-from-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
