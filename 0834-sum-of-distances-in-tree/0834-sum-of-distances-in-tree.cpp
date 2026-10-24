@@ -1,40 +1,37 @@
 class Solution {
 public:
     
-    int N;
-    
-    void dfsTraversal(int source,int parent,vector<vector<int>>& adj,vector<int>& subtreeNodeCount,vector<int>& subtreeDistSum){
+    void dfsTraversal(int source,int parent,vector<vector<int>>& adj,vector<int>& subtreeNodesCount,vector<int>& subtreeDistSum){
         
-        for(auto child:adj[source]){
+        for(auto& child:adj[source]){
             
-            //checking if parent
             if(child == parent){
                 continue;
             }
             
-            dfsTraversal(child,source,adj,subtreeNodeCount,subtreeDistSum);
+            dfsTraversal(child,source,adj,subtreeNodesCount,subtreeDistSum);
             
-            subtreeNodeCount[source]+=subtreeNodeCount[child];
-            subtreeDistSum[source]+=subtreeDistSum[child] + subtreeNodeCount[child];
+            subtreeNodesCount[source]+=subtreeNodesCount[child];
+            subtreeDistSum[source]+=subtreeNodesCount[child] + subtreeDistSum[child];
             
         }
         
     }
     
-    void derootingDp(int source,int parent,vector<vector<int>>& adj,vector<int>& subtreeNodeCount,vector<int>& subtreeDistSum){
+    void derooting(int source,int parent,vector<vector<int>>& adj,vector<int>& subtreeNodesCount,vector<int>& subtreeDistSum,int& N){
         
+        //making sure, we're not processing root again, since its already processed with initial dfs
         if(parent != -1){
-            subtreeDistSum[source]=subtreeDistSum[parent] + N - (2 * subtreeNodeCount[source]);
+            subtreeDistSum[source]=subtreeDistSum[parent] + (N - subtreeNodesCount[source]) - subtreeNodesCount[source];
         }
         
-        for(auto child:adj[source]){
+        for(auto& child:adj[source]){
             
-            //checking if parent
             if(child == parent){
                 continue;
             }
             
-            derootingDp(child,source,adj,subtreeNodeCount,subtreeDistSum);
+            derooting(child,source,adj,subtreeNodesCount,subtreeDistSum,N);
             
         }
         
@@ -42,21 +39,23 @@ public:
     
     vector<int> sumOfDistancesInTree(int n, vector<vector<int>>& edges) {
         
-        N=n;
-        vector<vector<int>> adj(n);
-        vector<int> subtreeNodeCount(n,1);
+        vector<int> subtreeNodesCount(n,1);
         vector<int> subtreeDistSum(n,0);
-        for(auto edge:edges){
-            int a=edge[0];
-            int b=edge[1];
-            adj[a].push_back(b);
-            adj[b].push_back(a);
+        
+        vector<vector<int>> adj(n);
+        for(auto& edge:edges){
+            int u=edge[0];
+            int v=edge[1];
+            
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+            
         }
-
-        dfsTraversal(0,-1,adj,subtreeNodeCount,subtreeDistSum);
-
-        derootingDp(0,-1,adj,subtreeNodeCount,subtreeDistSum);
-
+        
+        dfsTraversal(0,-1,adj,subtreeNodesCount,subtreeDistSum);
+        derooting(0,-1,adj,subtreeNodesCount,subtreeDistSum,n);
+        
         return subtreeDistSum;
+        
     }
 };
