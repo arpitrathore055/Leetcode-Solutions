@@ -1070,6 +1070,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0337-house-robber-iii](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0337-house-robber-iii) |
+| [0834-sum-of-distances-in-tree](https://github.com/arpitrathore055/Leetcode-Solutions/tree/master/0834-sum-of-distances-in-tree) |
 ## Binary Lifting
 |  |
 | ------- |
